@@ -1,0 +1,609 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		116798D82EDCB38F00C73344 /* Cleaner_Gemini3App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 116798D72EDCB38F00C73344 /* Cleaner_Gemini3App.swift */; };
+		116798DA2EDCB38F00C73344 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 116798D92EDCB38F00C73344 /* ContentView.swift */; };
+		116798DC2EDCB39100C73344 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 116798DB2EDCB39100C73344 /* Assets.xcassets */; };
+		116798DF2EDCB39100C73344 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 116798DE2EDCB39100C73344 /* Preview Assets.xcassets */; };
+		116798E12EDCB39100C73344 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 116798E02EDCB39100C73344 /* Persistence.swift */; };
+		116798E42EDCB39100C73344 /* Cleaner_Gemini3.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 116798E22EDCB39100C73344 /* Cleaner_Gemini3.xcdatamodeld */; };
+		116798EE2EDCB39100C73344 /* Cleaner_Gemini3Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 116798ED2EDCB39100C73344 /* Cleaner_Gemini3Tests.swift */; };
+		116798F82EDCB39100C73344 /* Cleaner_Gemini3UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 116798F72EDCB39100C73344 /* Cleaner_Gemini3UITests.swift */; };
+		116798FA2EDCB39100C73344 /* Cleaner_Gemini3UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 116798F92EDCB39100C73344 /* Cleaner_Gemini3UITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		116798EA2EDCB39100C73344 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 116798CC2EDCB38F00C73344 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 116798D32EDCB38F00C73344;
+			remoteInfo = "Cleaner Gemini3";
+		};
+		116798F42EDCB39100C73344 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 116798CC2EDCB38F00C73344 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 116798D32EDCB38F00C73344;
+			remoteInfo = "Cleaner Gemini3";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		116798D42EDCB38F00C73344 /* Cleaner Gemini3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Cleaner Gemini3.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		116798D72EDCB38F00C73344 /* Cleaner_Gemini3App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cleaner_Gemini3App.swift; sourceTree = "<group>"; };
+		116798D92EDCB38F00C73344 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		116798DB2EDCB39100C73344 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		116798DE2EDCB39100C73344 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		116798E02EDCB39100C73344 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		116798E32EDCB39100C73344 /* Cleaner_Gemini3.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Cleaner_Gemini3.xcdatamodel; sourceTree = "<group>"; };
+		116798E92EDCB39100C73344 /* Cleaner Gemini3Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Cleaner Gemini3Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		116798ED2EDCB39100C73344 /* Cleaner_Gemini3Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cleaner_Gemini3Tests.swift; sourceTree = "<group>"; };
+		116798F32EDCB39100C73344 /* Cleaner Gemini3UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Cleaner Gemini3UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		116798F72EDCB39100C73344 /* Cleaner_Gemini3UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cleaner_Gemini3UITests.swift; sourceTree = "<group>"; };
+		116798F92EDCB39100C73344 /* Cleaner_Gemini3UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cleaner_Gemini3UITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		116798D12EDCB38F00C73344 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		116798E62EDCB39100C73344 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		116798F02EDCB39100C73344 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		116798CB2EDCB38F00C73344 = {
+			isa = PBXGroup;
+			children = (
+				116798D62EDCB38F00C73344 /* Cleaner Gemini3 */,
+				116798EC2EDCB39100C73344 /* Cleaner Gemini3Tests */,
+				116798F62EDCB39100C73344 /* Cleaner Gemini3UITests */,
+				116798D52EDCB38F00C73344 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		116798D52EDCB38F00C73344 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				116798D42EDCB38F00C73344 /* Cleaner Gemini3.app */,
+				116798E92EDCB39100C73344 /* Cleaner Gemini3Tests.xctest */,
+				116798F32EDCB39100C73344 /* Cleaner Gemini3UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		116798D62EDCB38F00C73344 /* Cleaner Gemini3 */ = {
+			isa = PBXGroup;
+			children = (
+				116798D72EDCB38F00C73344 /* Cleaner_Gemini3App.swift */,
+				116798D92EDCB38F00C73344 /* ContentView.swift */,
+				116798DB2EDCB39100C73344 /* Assets.xcassets */,
+				116798E02EDCB39100C73344 /* Persistence.swift */,
+				116798E22EDCB39100C73344 /* Cleaner_Gemini3.xcdatamodeld */,
+				116798DD2EDCB39100C73344 /* Preview Content */,
+			);
+			path = "Cleaner Gemini3";
+			sourceTree = "<group>";
+		};
+		116798DD2EDCB39100C73344 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				116798DE2EDCB39100C73344 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		116798EC2EDCB39100C73344 /* Cleaner Gemini3Tests */ = {
+			isa = PBXGroup;
+			children = (
+				116798ED2EDCB39100C73344 /* Cleaner_Gemini3Tests.swift */,
+			);
+			path = "Cleaner Gemini3Tests";
+			sourceTree = "<group>";
+		};
+		116798F62EDCB39100C73344 /* Cleaner Gemini3UITests */ = {
+			isa = PBXGroup;
+			children = (
+				116798F72EDCB39100C73344 /* Cleaner_Gemini3UITests.swift */,
+				116798F92EDCB39100C73344 /* Cleaner_Gemini3UITestsLaunchTests.swift */,
+			);
+			path = "Cleaner Gemini3UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		116798D32EDCB38F00C73344 /* Cleaner Gemini3 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 116798FD2EDCB39100C73344 /* Build configuration list for PBXNativeTarget "Cleaner Gemini3" */;
+			buildPhases = (
+				116798D02EDCB38F00C73344 /* Sources */,
+				116798D12EDCB38F00C73344 /* Frameworks */,
+				116798D22EDCB38F00C73344 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Cleaner Gemini3";
+			productName = "Cleaner Gemini3";
+			productReference = 116798D42EDCB38F00C73344 /* Cleaner Gemini3.app */;
+			productType = "com.apple.product-type.application";
+		};
+		116798E82EDCB39100C73344 /* Cleaner Gemini3Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 116799002EDCB39100C73344 /* Build configuration list for PBXNativeTarget "Cleaner Gemini3Tests" */;
+			buildPhases = (
+				116798E52EDCB39100C73344 /* Sources */,
+				116798E62EDCB39100C73344 /* Frameworks */,
+				116798E72EDCB39100C73344 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				116798EB2EDCB39100C73344 /* PBXTargetDependency */,
+			);
+			name = "Cleaner Gemini3Tests";
+			productName = "Cleaner Gemini3Tests";
+			productReference = 116798E92EDCB39100C73344 /* Cleaner Gemini3Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		116798F22EDCB39100C73344 /* Cleaner Gemini3UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 116799032EDCB39100C73344 /* Build configuration list for PBXNativeTarget "Cleaner Gemini3UITests" */;
+			buildPhases = (
+				116798EF2EDCB39100C73344 /* Sources */,
+				116798F02EDCB39100C73344 /* Frameworks */,
+				116798F12EDCB39100C73344 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				116798F52EDCB39100C73344 /* PBXTargetDependency */,
+			);
+			name = "Cleaner Gemini3UITests";
+			productName = "Cleaner Gemini3UITests";
+			productReference = 116798F32EDCB39100C73344 /* Cleaner Gemini3UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		116798CC2EDCB38F00C73344 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					116798D32EDCB38F00C73344 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					116798E82EDCB39100C73344 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 116798D32EDCB38F00C73344;
+					};
+					116798F22EDCB39100C73344 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 116798D32EDCB38F00C73344;
+					};
+				};
+			};
+			buildConfigurationList = 116798CF2EDCB38F00C73344 /* Build configuration list for PBXProject "Cleaner Gemini3" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 116798CB2EDCB38F00C73344;
+			productRefGroup = 116798D52EDCB38F00C73344 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				116798D32EDCB38F00C73344 /* Cleaner Gemini3 */,
+				116798E82EDCB39100C73344 /* Cleaner Gemini3Tests */,
+				116798F22EDCB39100C73344 /* Cleaner Gemini3UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		116798D22EDCB38F00C73344 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				116798DF2EDCB39100C73344 /* Preview Assets.xcassets in Resources */,
+				116798DC2EDCB39100C73344 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		116798E72EDCB39100C73344 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		116798F12EDCB39100C73344 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		116798D02EDCB38F00C73344 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				116798E12EDCB39100C73344 /* Persistence.swift in Sources */,
+				116798E42EDCB39100C73344 /* Cleaner_Gemini3.xcdatamodeld in Sources */,
+				116798DA2EDCB38F00C73344 /* ContentView.swift in Sources */,
+				116798D82EDCB38F00C73344 /* Cleaner_Gemini3App.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		116798E52EDCB39100C73344 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				116798EE2EDCB39100C73344 /* Cleaner_Gemini3Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		116798EF2EDCB39100C73344 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				116798FA2EDCB39100C73344 /* Cleaner_Gemini3UITestsLaunchTests.swift in Sources */,
+				116798F82EDCB39100C73344 /* Cleaner_Gemini3UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		116798EB2EDCB39100C73344 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 116798D32EDCB38F00C73344 /* Cleaner Gemini3 */;
+			targetProxy = 116798EA2EDCB39100C73344 /* PBXContainerItemProxy */;
+		};
+		116798F52EDCB39100C73344 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 116798D32EDCB38F00C73344 /* Cleaner Gemini3 */;
+			targetProxy = 116798F42EDCB39100C73344 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		116798FB2EDCB39100C73344 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		116798FC2EDCB39100C73344 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		116798FE2EDCB39100C73344 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Cleaner Gemini3/Preview Content\"";
+				DEVELOPMENT_TEAM = CZPS8FB75D;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "nikita.k.Cleaner-Gemini3";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		116798FF2EDCB39100C73344 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Cleaner Gemini3/Preview Content\"";
+				DEVELOPMENT_TEAM = CZPS8FB75D;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "nikita.k.Cleaner-Gemini3";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		116799012EDCB39100C73344 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CZPS8FB75D;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "nikita.k.Cleaner-Gemini3Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cleaner Gemini3.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Cleaner Gemini3";
+			};
+			name = Debug;
+		};
+		116799022EDCB39100C73344 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CZPS8FB75D;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "nikita.k.Cleaner-Gemini3Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cleaner Gemini3.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Cleaner Gemini3";
+			};
+			name = Release;
+		};
+		116799042EDCB39100C73344 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CZPS8FB75D;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "nikita.k.Cleaner-Gemini3UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Cleaner Gemini3";
+			};
+			name = Debug;
+		};
+		116799052EDCB39100C73344 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CZPS8FB75D;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "nikita.k.Cleaner-Gemini3UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Cleaner Gemini3";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		116798CF2EDCB38F00C73344 /* Build configuration list for PBXProject "Cleaner Gemini3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				116798FB2EDCB39100C73344 /* Debug */,
+				116798FC2EDCB39100C73344 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		116798FD2EDCB39100C73344 /* Build configuration list for PBXNativeTarget "Cleaner Gemini3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				116798FE2EDCB39100C73344 /* Debug */,
+				116798FF2EDCB39100C73344 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		116799002EDCB39100C73344 /* Build configuration list for PBXNativeTarget "Cleaner Gemini3Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				116799012EDCB39100C73344 /* Debug */,
+				116799022EDCB39100C73344 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		116799032EDCB39100C73344 /* Build configuration list for PBXNativeTarget "Cleaner Gemini3UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				116799042EDCB39100C73344 /* Debug */,
+				116799052EDCB39100C73344 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		116798E22EDCB39100C73344 /* Cleaner_Gemini3.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				116798E32EDCB39100C73344 /* Cleaner_Gemini3.xcdatamodel */,
+			);
+			currentVersion = 116798E32EDCB39100C73344 /* Cleaner_Gemini3.xcdatamodel */;
+			path = Cleaner_Gemini3.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 116798CC2EDCB38F00C73344 /* Project object */;
+}
