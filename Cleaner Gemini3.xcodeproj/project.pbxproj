@@ -16,6 +16,26 @@
 		116798EE2EDCB39100C73344 /* Cleaner_Gemini3Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 116798ED2EDCB39100C73344 /* Cleaner_Gemini3Tests.swift */; };
 		116798F82EDCB39100C73344 /* Cleaner_Gemini3UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 116798F72EDCB39100C73344 /* Cleaner_Gemini3UITests.swift */; };
 		116798FA2EDCB39100C73344 /* Cleaner_Gemini3UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 116798F92EDCB39100C73344 /* Cleaner_Gemini3UITestsLaunchTests.swift */; };
+		1167991B2EDCB61B00C73344 /* DashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1167990A2EDCB61B00C73344 /* DashboardView.swift */; };
+		1167991C2EDCB61B00C73344 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1167990E2EDCB61B00C73344 /* OnboardingView.swift */; };
+		1167991D2EDCB61B00C73344 /* Fonts+Design.swift in Sources */ = {isa = PBXBuildFile; fileRef = 116799122EDCB61B00C73344 /* Fonts+Design.swift */; };
+		1167991E2EDCB61B00C73344 /* GradientBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = 116799142EDCB61B00C73344 /* GradientBackground.swift */; };
+		1167991F2EDCB61B00C73344 /* PrimaryButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 116799152EDCB61B00C73344 /* PrimaryButton.swift */; };
+		116799202EDCB61B00C73344 /* SecondaryButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 116799162EDCB61B00C73344 /* SecondaryButton.swift */; };
+		116799212EDCB61B00C73344 /* Colors+Design.swift in Sources */ = {isa = PBXBuildFile; fileRef = 116799172EDCB61B00C73344 /* Colors+Design.swift */; };
+		116799222EDCB61B00C73344 /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1167991A2EDCB61B00C73344 /* RootView.swift */; };
+		116799272EDCB8EF00C73344 /* StorageRingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 116799242EDCB8EE00C73344 /* StorageRingView.swift */; };
+		116799282EDCB8EF00C73344 /* CategoryCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 116799252EDCB8EE00C73344 /* CategoryCardView.swift */; };
+		116799292EDCB8EF00C73344 /* DashboardViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 116799262EDCB8EF00C73344 /* DashboardViewModel.swift */; };
+		1167992D2EDCB90600C73344 /* PrePermissionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1167992A2EDCB90600C73344 /* PrePermissionView.swift */; };
+		1167992E2EDCB90600C73344 /* OnboardingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1167992B2EDCB90600C73344 /* OnboardingViewModel.swift */; };
+		1167992F2EDCB90600C73344 /* OnboardingStepView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1167992C2EDCB90600C73344 /* OnboardingStepView.swift */; };
+		116799322EDCB91800C73344 /* PaywallView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 116799302EDCB91800C73344 /* PaywallView.swift */; };
+		116799332EDCB91800C73344 /* PaywallViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 116799312EDCB91800C73344 /* PaywallViewModel.swift */; };
+		116799372EDCB92B00C73344 /* PermissionsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 116799352EDCB92B00C73344 /* PermissionsViewModel.swift */; };
+		116799382EDCB92B00C73344 /* PermissionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 116799362EDCB92B00C73344 /* PermissionsView.swift */; };
+		1167993B2EDCB93F00C73344 /* PhotoLibraryService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 116799392EDCB93F00C73344 /* PhotoLibraryService.swift */; };
+		1167993C2EDCB93F00C73344 /* NotificationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1167993A2EDCB93F00C73344 /* NotificationService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +68,27 @@
 		116798F32EDCB39100C73344 /* Cleaner Gemini3UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Cleaner Gemini3UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		116798F72EDCB39100C73344 /* Cleaner_Gemini3UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cleaner_Gemini3UITests.swift; sourceTree = "<group>"; };
 		116798F92EDCB39100C73344 /* Cleaner_Gemini3UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cleaner_Gemini3UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		1167990A2EDCB61B00C73344 /* DashboardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DashboardView.swift; sourceTree = "<group>"; };
+		1167990E2EDCB61B00C73344 /* OnboardingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		116799122EDCB61B00C73344 /* Fonts+Design.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Fonts+Design.swift"; sourceTree = "<group>"; };
+		116799142EDCB61B00C73344 /* GradientBackground.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GradientBackground.swift; sourceTree = "<group>"; };
+		116799152EDCB61B00C73344 /* PrimaryButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PrimaryButton.swift; sourceTree = "<group>"; };
+		116799162EDCB61B00C73344 /* SecondaryButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondaryButton.swift; sourceTree = "<group>"; };
+		116799172EDCB61B00C73344 /* Colors+Design.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Colors+Design.swift"; sourceTree = "<group>"; };
+		1167991A2EDCB61B00C73344 /* RootView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
+		116799242EDCB8EE00C73344 /* StorageRingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StorageRingView.swift; sourceTree = "<group>"; };
+		116799252EDCB8EE00C73344 /* CategoryCardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoryCardView.swift; sourceTree = "<group>"; };
+		116799262EDCB8EF00C73344 /* DashboardViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DashboardViewModel.swift; sourceTree = "<group>"; };
+		1167992A2EDCB90600C73344 /* PrePermissionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PrePermissionView.swift; sourceTree = "<group>"; };
+		1167992B2EDCB90600C73344 /* OnboardingViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OnboardingViewModel.swift; sourceTree = "<group>"; };
+		1167992C2EDCB90600C73344 /* OnboardingStepView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OnboardingStepView.swift; sourceTree = "<group>"; };
+		116799302EDCB91800C73344 /* PaywallView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaywallView.swift; sourceTree = "<group>"; };
+		116799312EDCB91800C73344 /* PaywallViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaywallViewModel.swift; sourceTree = "<group>"; };
+		116799352EDCB92B00C73344 /* PermissionsViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PermissionsViewModel.swift; sourceTree = "<group>"; };
+		116799362EDCB92B00C73344 /* PermissionsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PermissionsView.swift; sourceTree = "<group>"; };
+		116799392EDCB93F00C73344 /* PhotoLibraryService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoLibraryService.swift; sourceTree = "<group>"; };
+		1167993A2EDCB93F00C73344 /* NotificationService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotificationService.swift; sourceTree = "<group>"; };
+		1167993D2EDCE07500C73344 /* Cleaner-Gemini3-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Cleaner-Gemini3-Info.plist"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +139,12 @@
 		116798D62EDCB38F00C73344 /* Cleaner Gemini3 */ = {
 			isa = PBXGroup;
 			children = (
+				1167993D2EDCE07500C73344 /* Cleaner-Gemini3-Info.plist */,
+				116799192EDCB61B00C73344 /* App */,
+				116799102EDCB61B00C73344 /* Core */,
+				116799072EDCB61B00C73344 /* Features */,
+				116799062EDCB61B00C73344 /* Model */,
+				1167990F2EDCB61B00C73344 /* Services */,
 				116798D72EDCB38F00C73344 /* Cleaner_Gemini3App.swift */,
 				116798D92EDCB38F00C73344 /* ContentView.swift */,
 				116798DB2EDCB39100C73344 /* Assets.xcassets */,
@@ -131,6 +178,141 @@
 				116798F92EDCB39100C73344 /* Cleaner_Gemini3UITestsLaunchTests.swift */,
 			);
 			path = "Cleaner Gemini3UITests";
+			sourceTree = "<group>";
+		};
+		116799062EDCB61B00C73344 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		116799072EDCB61B00C73344 /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				116799342EDCB92B00C73344 /* Permissions */,
+				116799082EDCB61B00C73344 /* Settings */,
+				116799092EDCB61B00C73344 /* Dashboard */,
+				1167990B2EDCB61B00C73344 /* Cleaning */,
+				1167990C2EDCB61B00C73344 /* Paywall */,
+				1167990D2EDCB61B00C73344 /* Onboarding */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		116799082EDCB61B00C73344 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		116799092EDCB61B00C73344 /* Dashboard */ = {
+			isa = PBXGroup;
+			children = (
+				116799232EDCB8EE00C73344 /* Components */,
+				116799262EDCB8EF00C73344 /* DashboardViewModel.swift */,
+				1167990A2EDCB61B00C73344 /* DashboardView.swift */,
+			);
+			path = Dashboard;
+			sourceTree = "<group>";
+		};
+		1167990B2EDCB61B00C73344 /* Cleaning */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Cleaning;
+			sourceTree = "<group>";
+		};
+		1167990C2EDCB61B00C73344 /* Paywall */ = {
+			isa = PBXGroup;
+			children = (
+				116799302EDCB91800C73344 /* PaywallView.swift */,
+				116799312EDCB91800C73344 /* PaywallViewModel.swift */,
+			);
+			path = Paywall;
+			sourceTree = "<group>";
+		};
+		1167990D2EDCB61B00C73344 /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				1167992C2EDCB90600C73344 /* OnboardingStepView.swift */,
+				1167992B2EDCB90600C73344 /* OnboardingViewModel.swift */,
+				1167992A2EDCB90600C73344 /* PrePermissionView.swift */,
+				1167990E2EDCB61B00C73344 /* OnboardingView.swift */,
+			);
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
+		1167990F2EDCB61B00C73344 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				1167993A2EDCB93F00C73344 /* NotificationService.swift */,
+				116799392EDCB93F00C73344 /* PhotoLibraryService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		116799102EDCB61B00C73344 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				116799112EDCB61B00C73344 /* DesignSystem */,
+				116799182EDCB61B00C73344 /* Extensions */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		116799112EDCB61B00C73344 /* DesignSystem */ = {
+			isa = PBXGroup;
+			children = (
+				116799122EDCB61B00C73344 /* Fonts+Design.swift */,
+				116799132EDCB61B00C73344 /* Components */,
+				116799172EDCB61B00C73344 /* Colors+Design.swift */,
+			);
+			path = DesignSystem;
+			sourceTree = "<group>";
+		};
+		116799132EDCB61B00C73344 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				116799142EDCB61B00C73344 /* GradientBackground.swift */,
+				116799152EDCB61B00C73344 /* PrimaryButton.swift */,
+				116799162EDCB61B00C73344 /* SecondaryButton.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		116799182EDCB61B00C73344 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		116799192EDCB61B00C73344 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				1167991A2EDCB61B00C73344 /* RootView.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		116799232EDCB8EE00C73344 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				116799242EDCB8EE00C73344 /* StorageRingView.swift */,
+				116799252EDCB8EE00C73344 /* CategoryCardView.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		116799342EDCB92B00C73344 /* Permissions */ = {
+			isa = PBXGroup;
+			children = (
+				116799352EDCB92B00C73344 /* PermissionsViewModel.swift */,
+				116799362EDCB92B00C73344 /* PermissionsView.swift */,
+			);
+			path = Permissions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -263,8 +445,28 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				116799272EDCB8EF00C73344 /* StorageRingView.swift in Sources */,
+				116799202EDCB61B00C73344 /* SecondaryButton.swift in Sources */,
+				1167991F2EDCB61B00C73344 /* PrimaryButton.swift in Sources */,
+				116799382EDCB92B00C73344 /* PermissionsView.swift in Sources */,
+				1167993C2EDCB93F00C73344 /* NotificationService.swift in Sources */,
 				116798E12EDCB39100C73344 /* Persistence.swift in Sources */,
+				116799212EDCB61B00C73344 /* Colors+Design.swift in Sources */,
+				1167991E2EDCB61B00C73344 /* GradientBackground.swift in Sources */,
+				116799292EDCB8EF00C73344 /* DashboardViewModel.swift in Sources */,
+				1167993B2EDCB93F00C73344 /* PhotoLibraryService.swift in Sources */,
 				116798E42EDCB39100C73344 /* Cleaner_Gemini3.xcdatamodeld in Sources */,
+				1167991B2EDCB61B00C73344 /* DashboardView.swift in Sources */,
+				1167992F2EDCB90600C73344 /* OnboardingStepView.swift in Sources */,
+				116799322EDCB91800C73344 /* PaywallView.swift in Sources */,
+				1167992E2EDCB90600C73344 /* OnboardingViewModel.swift in Sources */,
+				116799282EDCB8EF00C73344 /* CategoryCardView.swift in Sources */,
+				116799372EDCB92B00C73344 /* PermissionsViewModel.swift in Sources */,
+				1167991D2EDCB61B00C73344 /* Fonts+Design.swift in Sources */,
+				116799222EDCB61B00C73344 /* RootView.swift in Sources */,
+				116799332EDCB91800C73344 /* PaywallViewModel.swift in Sources */,
+				1167991C2EDCB61B00C73344 /* OnboardingView.swift in Sources */,
+				1167992D2EDCB90600C73344 /* PrePermissionView.swift in Sources */,
 				116798DA2EDCB38F00C73344 /* ContentView.swift in Sources */,
 				116798D82EDCB38F00C73344 /* Cleaner_Gemini3App.swift in Sources */,
 			);
@@ -428,6 +630,11 @@
 				DEVELOPMENT_TEAM = CZPS8FB75D;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Cleaner-Gemini3-Info.plist";
+				INFOPLIST_KEY_NSContactsUsageDescription = "We need access to your contacts to find duplicates and organize them.";
+				INFOPLIST_KEY_NSFaceIDUsageDescription = "We use Face ID to secure your secret folder.";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "We need access to your photos to find duplicates and clean up storage.";
+				INFOPLIST_KEY_NSUserTrackingUsageDescription = "This identifier will be used to deliver personalized ads to you.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -457,6 +664,11 @@
 				DEVELOPMENT_TEAM = CZPS8FB75D;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Cleaner-Gemini3-Info.plist";
+				INFOPLIST_KEY_NSContactsUsageDescription = "We need access to your contacts to find duplicates and organize them.";
+				INFOPLIST_KEY_NSFaceIDUsageDescription = "We use Face ID to secure your secret folder.";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "We need access to your photos to find duplicates and clean up storage.";
+				INFOPLIST_KEY_NSUserTrackingUsageDescription = "This identifier will be used to deliver personalized ads to you.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

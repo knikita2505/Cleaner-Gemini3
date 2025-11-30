@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>We need access to your photos to find duplicates and clean up storage.</string>
+	<key>NSContactsUsageDescription</key>
+	<string>We need access to your contacts to find duplicates and organize them.</string>
+	<key>NSFaceIDUsageDescription</key>
+	<string>We use Face ID to secure your secret folder.</string>
+    <key>NSUserTrackingUsageDescription</key>
+    <string>This identifier will be used to deliver personalized ads to you.</string>
+</dict>
+</plist>
